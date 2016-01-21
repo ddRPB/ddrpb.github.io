@@ -1,8 +1,86 @@
-<html>
- <head>
-  <title>ddRPB</title>
- </head>
- <body>
-  <p>This is the homepage for ddRPB organisation.</p>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="ddRPB organisation homepage">
+    <meta name="author" content="Tomas Skripcak">
+    <!--<link rel="icon" href="resources/favicon.ico">-->
+
+    <title>ddRPB</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="resources/rpb.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://ddrpb.github.io/">ddRPB - RadPlanBio platform connected</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Radiotherapy clinical research IT infrastructure</h2>
+        <p>RadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems, namely electronic data capture system (EDC - OpenClinica), medical image archive (PACS - Conquest) and patient identity management system (PIDG - Mainzelliste), which are integrated in order to deliver a core software infrastructure necessary to support translational radiotherapy research projects.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>EDC</h2>
+          <p>RPB integrates with OpenClinica Electronic Data Capture system which is used to build eCRF forms and conduct study data. RPB provides features to semantically annotate EDC eCRF fields in order to allow the generic access to data captured within the forms.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>PACS</h2>
+          <p>Scriptable research PACS system is used to store all documented medical imaging and treatment planning data in DICOM format. All data is pseudonymised accorfing to DICOM supplement 142 (Clinical trial de-identification) and contours in treatment plans are harmonised to confort RPB standard contour naming.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>PIDG</h2>
+          <p>Patient in RPB can be represented with patient unique pseudonyms generated with Mainzelliste pseudonymisation service. In order to guarantee unique pseudonyms accros multiple partner sites (some may not use Mainzelliste) RPB prefixes patient pseudonyms with RPB partner site identifier.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 ddRPB</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="resources/js/bootstrap.min.js"></script>
+  </body>
 </html>
