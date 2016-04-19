@@ -10,7 +10,7 @@
     <meta name="author" content="Tomas Skripcak">
     <!--<link rel="icon" href="resources/favicon.ico">-->
 
-    <title>ddRPB</title>
+    <title>ddRPB | radiotherapy clinical research IT infrastructure</title>
 
     <!-- Bootstrap core CSS -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -36,17 +36,19 @@
           <a class="navbar-brand" href="http://ddrpb.github.io/">ddRPB - RadPlanBio platform connected</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            
-          </form>
-        </div><!--/.navbar-collapse -->
+            <ul class="nav navbar-nav">
+              <li><a href="features.html">Features</a></li>
+              <li><a href="components.html">Components</a></li>
+              <li><a href="technology.html">Technology</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="jumbotron">
       <div class="container">
         <h2>Radiotherapy clinical research IT infrastructure</h2>
-        <p>RadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems, namely electronic data capture system (EDC - <a href="https://www.openclinica.com/" target="_new">OpenClinica</a>), medical image archive (PACS - <a href="http://ingenium.home.xs4all.nl/dicom.html" target="_new">Conquest</a>) and patient identity management system (PIDG - <a href="http://www.unimedizin-mainz.de/imbei/informatik/opensource/mainzelliste.html" target="_new">Mainzelliste</a>), which are integrated in order to deliver a core software infrastructure necessary to support translational radiotherapy research projects.</p>
+        <p>RadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems, namely electronic data capture system (EDC - <a href="https://www.openclinica.com/" target="_new">OpenClinica</a>), medical image archive (PACS - <a href="http://ingenium.home.xs4all.nl/dicom.html" target="_new">Conquest</a>) and patient identity management system (PIDG - <a href="http://www.unimedizin-mainz.de/imbei/informatik/opensource/mainzelliste.html" target="_new">Mainzelliste</a>), which are integrated vial RPB portal in order to deliver a core software infrastructure necessary to support translational radiotherapy research projects.</p>
         <p><a class="btn btn-primary btn-lg" href="http://dx.doi.org/10.1109/JBHI.2015.2450833" target="_new" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -57,28 +59,24 @@
         <div class="col-md-4">
           <h2>EDC</h2>
           <p>RPB integrates with OpenClinica Electronic Data Capture system which is used to build eCRF forms and conduct study data. RPB provides features to semantically annotate EDC eCRF fields in order to allow the generic access to data captured within the forms.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://www.openclinica.com/"  target="_new" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>PACS</h2>
           <p>Script-able research PACS system is used to store all documented medical imaging and treatment planning data in DICOM format. All data is pseudonymised according to DICOM supplement 142 (Clinical trial de-identification) and contours in treatment plans are harmonised to comfort RPB standard contour naming.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://ingenium.home.xs4all.nl/dicom.html" target="_new" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
           <h2>PIDG</h2>
           <p>Patient in RPB can be represented with patient unique pseudonyms generated with Mainzelliste pseudonymisation service. In order to guarantee unique pseudonyms across multiple partner sites (some may not use Mainzelliste) RPB prefixes patient pseudonyms with RPB partner site identifier.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://www.unimedizin-mainz.de/imbei/informatik/opensource/mainzelliste.html" target="_new" role="button">View details &raquo;</a></p>
         </div>
       </div>
-
       <hr>
-
       <footer>
         <p>&copy; 2016 ddRPB</p>
       </footer>
     </div> <!-- /container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

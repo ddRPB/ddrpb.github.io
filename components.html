@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="ddRPB organisation homepage">
+    <meta keywords="DICOM-RT, radiotherapy, research, IT">
+    <meta name="author" content="Tomas Skripcak">
+    <!--<link rel="icon" href="resources/favicon.ico">-->
+
+    <title>ddRPB | radiotherapy clinical research IT infrastructure</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="resources/rpb.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fork me on github ribbon -->
+    <span id="forkongithub"><a href="https://github.com/ddRPB/">Fork me on GitHub</a></span>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://ddrpb.github.io/">ddRPB - RadPlanBio platform connected</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="features.html">Features</a></li>
+              <li class="active"><a href="components.html">Components</a></li>
+              <li><a href="technology.html">Technology</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Components</h1>
+          <p>RPB tries to tackle with very complex data management tasks that need to be mastered to successfully support translation research projects in radiotherapy. It would not be feasible to have a super complex system that covers requirements from all types of potential end users in translational research environment. That is why RPB platform is using a carefully chosen set of components that are meant to solve certain data management tasks. RPB portal than integrate all these together to provide a single staring dashboard for all types of end-users. To provide a good overview the RPB components are sorted into work packages.</p>
+
+
+          <h3>WP0 - link to clinical systems</h3>
+          <ul>
+            <li>HL7 listener - <a href="https://www.mirth.com/" target="_new">Mirth Connect</a></li>
+          </ul>
+          <h3>WP1 - patient privacy</h3>
+          <ul>
+            <li>Patient identity database and pseudonym generation <a href="http://www.unimedizin-mainz.de/imbei/informatik/opensource/mainzelliste.html" target="_new">Mainzelliste</a></li>
+          </ul>
+          <h3>WP2 - clinical research</h3>
+            <ul>
+              <li>EDC - <a href="https://www.openclinica.com/" target="_new">OpenClinica</a></li>
+              <li>EDC - web services</li>
+              <li>EDC - rule designer</li>
+              <li>XForms render engine - <a href="https://enketo.org/" target="_new">ENKETO</a>
+              <li>RPB portal - integration engine</li>
+              <li>RPB participate - mobile data entry portal</li>
+            </ul>
+          <h3>WP3 - medical imaging</h3>
+            <ul>
+              <li>Research PACS - <a href="http://ingenium.home.xs4all.nl/dicom.html" target="_new">Conquest</a></li>
+              <li>RPB client - de-identification and upload of DICOM data</li>
+              <li>DICOM WADO web viewers - Java webstart <a href="https://dcm4che.atlassian.net/wiki/display/WEA/Home" target="_new">Weasis</a>, HTML5 <a href="https://ivmartel.github.io/dwv/" target="_new">DWV</a>
+            </ul>
+          <h3>WP4 - microscopy imaging (*planned)</h3>
+          <h3>WP5 - bio specimen data (commercial product Centraxx)</h3>
+          <h3>WP6 - molecular profiling data (*planned)</h3>
+          <h3>WP7 - clinical research data-warehouse (*planned)</h3>
+            <ul>
+              <li><a href="http://transmartfoundation.org/" target="_new">tranSMART</a></li>
+            </ul>
+          <h3>WP8 - platform deployment</h3>
+            <ul>
+              <li>supporting systems for RPB development and deployment needs (<a href="https://github.com/ddRPB/" target="_new">github</a>, continuous integration server, <a href="http://ddrpb.github.io/" target="_new">web presence</a>, para virtualisation with <a href="http://www.xenproject.org/" target="_new">xen</a>, backup strategy, reverse proxy <a href="http://nginx.org/" target="_new">nginx</a> in DMZ for external access, etc.)</li>
+            </ul>
+          <h3>WP9 - link to national and international research platforms</h3>
+            <ul><li>DKTK CCP-IT link to local bridgehead and others...</li></ul>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2016 ddRPB</p>
+      </footer>
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="resources/js/bootstrap.min.js"></script>
+  </body>
+</html>
