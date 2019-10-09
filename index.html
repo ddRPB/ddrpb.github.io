@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://ddrpb.github.io/">ddRPB - RadPlanBio platform</a>
+          <a class="navbar-brand" href="https://ddrpb.github.io/">ddRPB - RadPlanBio platform</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -49,8 +49,8 @@
     <div class="jumbotron">
       <div class="container">
         <h2>Radiotherapy clinical research IT infrastructure</h2>
-        <p>RadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems, namely electronic data capture system (EDC - <a href="https://www.openclinica.com/" target="_new">OpenClinica</a>, XForms - <a href="https://enketo.org/" target="_new">Enketo</a>), medical image archive (PACS - <a href="http://ingenium.home.xs4all.nl/dicom.html" target="_new">Conquest</a>, DICOM Viewer - <a href="https://nroduit.github.io" target="_new">Weasis</a>, CTP - <a href="https://www.rsna.org/research/imaging-research-tools" target="_new">Clinical Trials Processor</a>) and patient identity management system (PIDG - <a href="http://www.unimedizin-mainz.de/imbei/informatik/ag-verbundforschung/mainzelliste.html" target="_new">Mainzelliste</a>), which are integrated via RPB portal in order to deliver a core software infrastructure necessary to support translational radiotherapy research projects.</p>
-        <p><a class="btn btn-primary btn-lg" href="http://rpb-doc.readthedocs.io" target="_new" role="button">Docs &raquo;</a>&nbsp;<a class="btn btn-primary btn-lg" href="http://www.dktk-dkfz.de/en/sites/dresden" target="_new" role="button">Provider &raquo;</a>&nbsp;<a class="btn btn-primary btn-lg" href="http://dx.doi.org/10.1109/JBHI.2015.2450833" target="_new" role="button">Paper &raquo;</a></p>
+        <p>RadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems integrated via RPB portal to deliver a core software infrastructure necessary to support the operation of non-commercial trials unit.</p>
+        <p><a class="btn btn-primary btn-lg" href="https://rpb-doc.readthedocs.io" target="_new" role="button">Docs &raquo;</a>&nbsp;<a class="btn btn-primary btn-lg" href="https://www.dktk-dkfz.de/en/sites/dresden" target="_new" role="button">Provider &raquo;</a>&nbsp;<a class="btn btn-primary btn-lg" href="https://dx.doi.org/10.1109/JBHI.2015.2450833" target="_new" role="button">Paper &raquo;</a></p>
       </div>
     </div>
 
@@ -59,23 +59,28 @@
       <div class="row">
         <div class="col-md-4">
           <h2>EDC</h2>
-          <p>RPB integrates with OpenClinica Electronic Data Capture system which is used to build eCRF forms and conduct study data. RPB provides features to semantically annotate EDC eCRF fields in order to allow the generic access to data captured within the forms.</p>
+          <p>RPB integrates with Electronic Data Capture system which is used to build eCRF forms and conduct study data. RPB provides features to semantically annotate EDC eCRF fields in order to allow the generic access to data captured within the forms.</p>
           <p><a class="btn btn-default" href="https://www.openclinica.com/"  target="_new" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>PACS</h2>
           <p>Script-able research PACS system is used to store all documented medical imaging and treatment planning data in DICOM format. All data is pseudonymised according to DICOM supplement 142 (Clinical trial de-identification) and contours in treatment plans are harmonised to comfort RPB standard contour naming.</p>
-          <p><a class="btn btn-default" href="http://ingenium.home.xs4all.nl/dicom.html" target="_new" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://ingenium.home.xs4all.nl/dicom.html" target="_new" role="button">View details &raquo;</a></p>
        </div>
-        <div class="col-md-4">
-          <h2>PIDG</h2>
-          <p>Patient in RPB can be represented with patient unique pseudonyms generated with Mainzelliste pseudonymisation service. In order to guarantee unique pseudonyms across multiple partner sites (some may not use Mainzelliste) RPB prefixes patient pseudonyms with RPB partner site identifier.</p>
-          <p><a class="btn btn-default" href="http://www.unimedizin-mainz.de/imbei/informatik/ag-verbundforschung/mainzelliste.html" target="_new" role="button">View details &raquo;</a></p>
-        </div>
+       <div class="col-md-4">
+          <h2>PID</h2>
+          <p>Patient in RPB can be represented with patient unique pseudonyms generated via site specific pseudonymisation service. In order to guarantee unique pseudonyms across multiple partner sites RPB prefixes patient pseudonyms with global RPB partner site identifiers.</p>
+          <p><a class="btn btn-default" href="https://www.unimedizin-mainz.de/imbei/informatik/ag-verbundforschung/mainzelliste.html" target="_new" role="button">View details &raquo;</a></p>
+       </div>
+       <div class="col-md-4">
+          <h2>LAB</h2>
+          <p>Generic and instrument specific laboratory assay data or experimental data is stored in tabulated form withing study specific file repositories together with data dictionaries necessary for data processing. Such organised datasets can be kept within the scope of authoring site or moved to shared location accesible for all sites in multi-centre study.</p>
+          <p><a class="btn btn-default" href="https://www.labkey.com/" target="_new" role="button">View details &raquo;</a></p>
+       </div>
       </div>
       <hr>
       <footer>
-        <p>&copy; 2018 ddRPB</p>
+        <p>&copy; 2019 ddRPB</p>
       </footer>
     </div> <!-- /container -->
     <!-- Bootstrap core JavaScript
