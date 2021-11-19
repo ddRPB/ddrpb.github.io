@@ -50,27 +50,101 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-12">
-          <h1>Technology</h1>
+          <h2>Technology</h2>
+          <p class="text-justify">
+            In case of interest in helping us further develop RPB platform or create a new use cases as superuser below is curated list of programming languages and libraries that are part of our toolstack.
+          </p>
 
-          <h3>Software requirements</h3>
-          <ul>
-            <li>RPB-portal/mobile can be used with standard browsers such as Firefox, Chrome/Chromium/Microsoft Edge
-            <li>RPB-client can be used with 64-bit desktop computer (Windows 10)</li>
-            <li>optional [DICOM viewer]: Java Runtime Environment (JRE)</li>
-          </ul>
-          
-          <h3>Development toolbox</h3>
-          <ul>
-            <li>
-              Java (Tomcat, JSF, Spring, Hibernate ORM, Primefaces)
-            </li>
-            <li>
-              Python (PyQt, SqlAlchemy, pydicom, pysimplesoap, requests)
-            </li> 
-            <li>
-              Lua (Conquest DICOM scripting)
-            </li>
-          </ul>
+          <!-- Accordion -->
+          <div class="panel-group" id="accordion">
+
+            <!-- Java -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Java</a>
+                </h3>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">JSF</li>
+                    <li class="list-group-item">Primefaces</li>
+                    <li class="list-group-item">Spring</li>
+                    <li class="list-group-item">Hibernate ORM</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Python -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Python</a>
+                </h3>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">PyQt</li>
+                    <li class="list-group-item">SqlAlchemy</li>
+                    <li class="list-group-item">pydicom</li>
+                    <li class="list-group-item">pysimplesoap</li>
+                    <li class="list-group-item">requests</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">JavaScript</a>
+                </h3>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">React</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lua -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lua</a>
+                </h3>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">PACS DICOM scripting</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- R -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">R</a>
+                </h3>
+              </div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">knitr LAB report writing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <hr>
